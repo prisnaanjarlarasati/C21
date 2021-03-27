@@ -16,7 +16,7 @@ body {
     align-items: center;
     padding-left: 60px;
     padding-right: 60px;
-    height: 55px;
+    height: 90px;
     width: 100%;
     background-color: rgba(247, 158, 67, 0.7);
     position: fixed;
@@ -98,9 +98,9 @@ nav ul li .nav-link:hover {
 }
 
 #hero h2 {
-    padding-top: 190px;
+    padding-top: 200px;
     padding-left: 75px;
-    font-size: 30pt;
+    font-size: 40pt;
     font-weight: bold;
 }
 
