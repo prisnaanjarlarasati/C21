@@ -16,42 +16,74 @@ body {
     align-items: center;
     padding-left: 60px;
     padding-right: 60px;
-    height: 50px;
+    height: 55px;
     width: 100%;
     background-color: rgba(247, 158, 67, 0.7);
-    position: sticky;
+    position: fixed;
 }
 
 #header-img {
-    width: 50%;
+    margin: 0 auto;
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
-.nav {
+nav ul {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: flex-end;
+    text-align: right;
 }
 
-.nav-link {
+nav ul li {
+    display: inline-block;
     font-family: sans-serif;
     font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
+    margin: 20px;
     color: white;
 }
 
+nav ul li .nav-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul li .nav-link,
+nav ul li .nav-link:after,
+nav ul li .nav-link::before {
+    transition: all .5s;
+}
+
+nav ul li .nav-link:hover {
+    background-color: #fff;
+    color: rgb(247, 158, 67);
+  }
+
+
 .cta {
     background-color: white;
+    color: rgb(247, 158, 67);
     border-radius: 20px;
     padding: 7px;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s;
 }
 
-a {
-    color:  rgb(247, 158, 67);
-    text-decoration: none;
-    font-weight: bold;
+
+.cta:hover {
+    background-color: rgb(247, 158, 67);
+    color: #fff;
 }
+
+
 
 #hero {
     width: 100%;
