@@ -36,6 +36,7 @@ body {
     width: 100%;
     background-color: rgba(247, 158, 67, 0.7);
     position: fixed;
+    z-index: 10;
 }
 
 #header-img {
@@ -131,8 +132,49 @@ h2 span {
 
 
 
+.service-wrapper {
+  height: 750px;
+  background-color: #fffbf2;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .service {
-  height: 600px;
+    float: left;
+    width: 33%;
+}
+
+.heading {
+    padding-top: 115px;
+    padding-bottom: 15px;
+}
+
+.heading h2 {
+    font-size: 36px;
+    color: #ff7e00;
+}
+
+.background-icon {
+    position: relative;
+}
+
+.service-icon {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.services h2 {
+    padding-top: 30px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 /*Footer*/
