@@ -32,7 +32,7 @@
 2.	Berbagai macam animasi CSS: CSS Animations
 3.	Menggunakan mencari gambar ilustrasi: http://undraw.co/
 
-# Kelompok C23:
+# Kelompok C21:
 1. Adam O. Guciano
 2. Robby R. Kusuma
 3. Muhammad S. Akbar
