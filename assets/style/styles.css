@@ -11,6 +11,8 @@
 */
 
 /*==============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -181,6 +183,7 @@ h2 span {
     width: 80%;
     display: inline-block;
     margin-top: 15px;
+    margin-bottom: 50px;
     font-size: 18px;
 }
 
@@ -248,7 +251,7 @@ footer .sosmed img {
     span.fa{
         display:block;
         color:white;
-        
+        font-size: 2em
     }
   
     span.fa:hover{
@@ -259,6 +262,16 @@ footer .sosmed img {
     #hero {
         display: flex;
         flex-direction: column;
+        padding-right: 30px;
+    }
+
+    #hero h2 {
+        font-size: 3em;
+        padding-top: 450px;
+    }
+
+    #hero p {
+        font-size: 2em;
     }
 
     .service-wrapper {
@@ -292,7 +305,7 @@ footer .sosmed img {
 }
   
   /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
+  @media all and (max-width: 370px) {
     .toggle {
         visibility: visible;
     }
@@ -318,14 +331,16 @@ footer .sosmed img {
        background-size: 100%;
        background-position-x: center;
        background-position-y: 150px;
-       background-attachment: fixed;
+   }
+
+   #hero h2 {
+       font-size:15pt;
+   }
+
+   #hero p {
+       font-size: 11pt;
    }
   
-    #hero h2 span p {
-        padding-left: 75px;
-        font-size: 1em;
-        font-weight: bold;
-    }
   
     .heading h2{
         font-size: 30px;
