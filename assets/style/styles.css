@@ -177,6 +177,44 @@ h2 span {
     font-size: 18px;
 }
 
+.authors-wrapper {
+	height: 400px;
+	padding-bottom: 80px;
+	background-color: #ffff;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.a-heading {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.a-heading h2{
+	font-size:36px;
+	line-height:64px;
+	color:#ff7e00;
+}
+.author-list{
+	float:left;
+	width:20%;
+}
+.author h2{
+
+}
+.pos {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+.ava {
+	position:relative;
+	width:160px;
+	height:160px;
+	margin-bottom:10px;
+	
+}
+
 /*Footer*/
 footer {
   background-color: #fc8e1e;
