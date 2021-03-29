@@ -239,7 +239,7 @@ footer .sosmed img {
 
 
 /* Untuk Tablet */
-@media all and (max-width: 1025px) {
+@media all and (max-width: 1000px) {
     .toggle {
         visibility: visible;
     }
@@ -305,7 +305,7 @@ footer .sosmed img {
 }
   
   /* Untuk Smartphone */
-  @media all and (max-width: 370px) {
+  @media all and (max-width: 670px) {
     .toggle {
         visibility: visible;
     }
